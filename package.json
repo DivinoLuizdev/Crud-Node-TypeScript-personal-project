@@ -1,0 +1,26 @@
+{
+  "name": "api-typescript-crud-basic",
+  "version": "1.0.0",
+  "description": "aplicação de estudos em nodejs etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc",
+    "start":"yarn build && node dist/index.js "
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Divino luiz da costa junior",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.2",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  }
+}
