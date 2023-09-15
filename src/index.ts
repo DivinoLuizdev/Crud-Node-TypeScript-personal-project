@@ -1,4 +1,4 @@
- 
+import { server } from './server/Server';
 
-const teste:any =  ['1','bb','test'];
-console.log(teste)
+
+server.listen(3333, () => console.log('App rodando!'));
